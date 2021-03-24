@@ -1,22 +1,34 @@
 package variables;
 
 public class Instance {
-
-	int x=234; 
-	int y=456;
-	int z=789;
 	
-	public void fourth() {
+		int age; //Instance variable
 		
-	}
-	
-	String a="All galaxies have a supermassive black hole in its center.";
-	String b="Stars are mainly composed of hydrogen and helium.";
-	String c="The largest organ of the human body is the skin";
-	
-	public void fifth() {
 		
-	}
-
+		public static void main(String[] args) {
+			Instance v2 = new Instance();
+			v2.mark();
+			matthew();
+			v2.john();
+			
+		}
+		
+		private void mark() {
+			age = 35;
+			System.out.println(" mark is "+age+" years old");
+			
+		}
+		
+		public static void matthew() {
+			Instance v2 = new Instance();
+			v2.age = 30;
+			System.out.println(" matthew is "+v2.age+" years old");
+		}
+		
+		public void john() {
+			age = 21;
+			System.out.println(" john is "+age+" years old");
+		}
+		
+		
 }
-//xyz and abc are instance variables which are inside the class but outside the method.

@@ -2,24 +2,33 @@ package variables;
 
 public class Local {
 
-public void first() {
+	public static void main(String[] args) {
+		Local v2 = new Local();
+		v2.alex();
+		michael();
+		v2.alice();
 		
-		byte a=10;
-		int b = 100;
-		short c=10000;
-		long d=1234567890123456789L;	
-	}
-	
-	protected void second() {
-		
-		float e=8.12345678987654F;
-		double f=9.98765432198765432123456789;
-	}
-	
-	void third() {
-		
-		char g='N';
-		String h="I am addicted to Java.";
-	}
 
+	}
+	
+	private void alex() {
+		
+		int age = 35;
+		System.out.println(" alex is "+age);
+		
+	}
+	
+	public static void michael() {
+		
+		int age = 30;
+		System.out.println(" michael is "+age);						
+	}
+	
+	public void alice( ) {
+		
+		int age = 21;
+		System.out.println(" alice is "+age);
+	}
+	
 }
+// int age is local variable which are outside the class and inside the method.
