@@ -1,6 +1,6 @@
 package clientApp;
 
-import modifiers.EvaluateModifiers;
+import accessModifiers.EvaluateModifiers;
 
 public class Protected extends EvaluateModifiers {
 

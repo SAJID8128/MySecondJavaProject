@@ -1,4 +1,4 @@
-package modifiers;
+package accessModifiers;
 
 
 // Class are not allowed 'private' or 'protected' access modifiers.
