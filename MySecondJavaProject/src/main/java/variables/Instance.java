@@ -1,5 +1,6 @@
 package variables;
 
+
 public class Instance {
 	
 		int age; //Instance variable
@@ -9,8 +10,8 @@ public class Instance {
 			Instance v2 = new Instance();
 			v2.mark();
 			matthew();
-			v2.john();
-			
+			v2.john();	
+		
 		}
 		
 		private void mark() {
